@@ -1,0 +1,286 @@
+/* Header */
+header {
+    padding: 30px 6%;
+    background-color: var(--color-black);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Header desktop */
+header .desktop__logo img {
+    width: 100%;
+}
+
+header .desktop__menu ul {
+    list-style-type: none;
+}
+
+header .desktop__menu ul li {
+    display: inline;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+header .desktop__menu ul li a {
+    position: relative;
+    text-decoration: none;
+    color: var(--color-white);
+    font-weight: 600;
+    padding: 10px;
+}
+
+header .desktop__menu ul li a#talk {
+    color: var(--color-purple);
+}
+
+header .desktop__menu ul li a#talk::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+    width: 77%;
+    border-bottom: 2px solid var(--color-purple);
+}
+
+header .desktop__menu ul li a#language::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+    border-bottom: 2px solid var(--color-white);
+}
+
+header .desktop__menu ul li a:hover {
+  color: var(--color-purple);
+}
+
+/* Header mobile */
+header .mobile {
+    display: none;
+}
+
+header .mobile__logo {
+    display: none;
+}
+
+header .mobile__logo img {
+    display: none;
+}
+
+header .mobile__button {
+    display: none;
+}
+
+header .mobile__menu {
+    display: none;
+}
+
+/* Section 1 :: cta */
+section.cta {
+    padding: 240px 6% 150px;
+    background-color: var(--color-black);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+section.cta .cta__box {
+    color: var(--color-white);
+    flex: 1 0 250px;
+    min-width: 250px;
+    margin: 1em;
+}
+
+section.cta .cta__box .cta__box__card {
+    width: 150px;
+    padding: 15px;
+    background-color: var(--color-dark);
+    border-radius: 5px;
+}
+
+section.cta .cta__box .cta__box__card img {
+    color: var(--color-purple);
+    width: 30%;
+}
+
+section.cta .cta__box .cta__box__card h3 {
+    margin-top: 15px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+section.cta .cta__box .cta__box__card__text h3 {
+    margin: 45px 0 30px;
+    font-family: 'Gotham Black';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+section.cta .cta__box .cta__box__card__text h1 {
+    margin: 0;
+    font-family: 'Gotham Black';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 60px;
+}
+
+section.cta .cta__box .cta__box__form {
+    background-color: var(--color-dark);
+    padding: 30px;
+    width: 70%;
+    margin: 30px 30%;
+    min-height: 400px;
+
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg,var(--color-blue),var(--color-pink));
+    border-image-slice: 1;
+}
+
+section.cta .cta__box .cta__box__form h3 {
+    font-size: 34px;
+    line-height: 39px;
+}
+
+section.cta .cta__box .cta__box__form p {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    margin: 15px 0;
+}
+
+section.cta .cta__box .cta__box__form form {
+    width: 100%;
+}
+
+section.cta .cta__box .cta__box__form input {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid var(--color-light);
+    padding: 12px 0;
+    margin: 1em 0;
+    color: var(--color-white);
+    background-color: var(--color-dark);
+}
+
+section.cta .cta__box .cta__box__form button.btn {
+    background: linear-gradient(90deg,var(--color-dark-purple),var(--color-pink));;
+    margin-top: 30px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color-white);
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Section 2 :: service */
+section.service {
+    padding: 120px 6%;
+    background-color: var(--color-black);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+section.service .service__box {
+    color: var(--color-white);
+    flex: 1 0 250px;
+    min-width: 250px;
+    margin: 1em;
+}
+
+section.service .service__box .service__box__card {
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: var(--color-dark);
+    border-radius: 5px;
+}
+
+section.service .service__box .service__box__card img {
+    color: var(--color-purple);
+    width: 20%;
+}
+
+section.service .service__box .service__box__card h3 {
+    font-family: 'Gotham Black';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    text-align: right;
+    line-height: 60px;
+    position: relative;
+    top: 10px;
+    right: 80px;
+}
+
+section.service .service__box .service__box__aside {
+    margin: 60px 0;
+}
+
+section.service .service__box .service__box__aside p {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+section.service .service__box .service__box__aside p:nth-child(2) {
+    margin: 15px 0;
+}
+
+/* Section 3 :: steps */
+section.steps {
+    padding: 120px 6%;
+    background-color: var(--color-black);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+section.steps .steps__box {
+    flex: 1 0 250px;
+    margin: 1rem;
+    min-height: 300px;
+}
+
+section.steps .steps__box h3 {
+    color: var(--color-green);
+    font-family: 'Gotham Black';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+section.steps .steps__box p {
+    color: var(--color-white);
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 15px 0;
+}
