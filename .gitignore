@@ -1,0 +1,12 @@
+# VsCode editor
+.vscode
+settings.json
+
+# Environment variables
+.env
+
+# Package lock file to avoid incompatibility of dependencies
+package-lock.json
+
+# Node modules folder to avoid incompatibility of dependencies
+node_modules
