@@ -182,7 +182,7 @@ section.cta .cta__box .cta__box__form input {
 }
 
 section.cta .cta__box .cta__box__form button.btn {
-    background: linear-gradient(90deg,var(--color-dark-purple),var(--color-pink));;
+    background: linear-gradient(90deg,var(--color-dark-purple),var(--color-pink));
     margin-top: 30px;
     font-family: 'Gotham';
     font-style: normal;
@@ -283,4 +283,88 @@ section.steps .steps__box p {
     font-size: 16px;
     line-height: 21px;
     margin: 15px 0;
+}
+
+/* Section 4 :: process */
+section.process {
+    padding: 120px 6%;
+    background-color: var(--color-black);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+section.process .process__head h3 {
+    color: var(--color-white);
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+}
+
+section.process .process__box {
+    margin-top: 60px;
+}
+
+section.process .process__box__card {
+    height: 100px;
+    width: 220px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    text-align: center;
+}
+
+section.process .process__box__card:nth-child(1) {
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg,var(--color-blue),var(--color-pink));
+    border-image-slice: 1;
+}
+
+section.process .process__box__card p {
+    color: var(--color-white);
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 15px auto;
+}
+
+/* Section 5 :: resource */
+section.resource {
+    padding: 120px 6%;
+    background-color: var(--color-black);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+section.resource .resource__box {
+    color: var(--color-black);
+    flex: 1 0 200px;
+    min-height: 350px;
+    margin: 1em;
+    padding: 4em;
+    background-color: var(--color-green);
+}
+
+section.resource .resource__box h3 {
+    font-family: 'Gotham Black';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+section.resource .resource__box p {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 30px;
 }
